@@ -1,0 +1,13 @@
+[gd_scene load_steps=3 format=3 uid="uid://tep472yh2p36"]
+
+[ext_resource type="Script" path="res://Player/player.gd" id="1_msnsk"]
+[ext_resource type="Texture2D" uid="uid://db31c6vf2s04q" path="res://art/Player.png" id="1_ugilp"]
+
+[node name="Player" type="CharacterBody2D"]
+texture_filter = 1
+script = ExtResource("1_msnsk")
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+texture = ExtResource("1_ugilp")
+hframes = 4
+vframes = 7
